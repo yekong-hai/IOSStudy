@@ -2027,7 +2027,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "IOSStudy/IOSStudy-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.newtranx.pt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtranx.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2050,7 +2050,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "IOSStudy/IOSStudy-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.newtranx.pt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newtranx.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
