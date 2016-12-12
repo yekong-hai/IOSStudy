@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>native_js_test页面</title>
+
+    <script type="text/javascript">
+        var i = 2
+        function alert123(){
+            alert("123")
+        }
+
+        function calculateAndReturn(){
+            i = i + 1
+            return i
+        }
+
+        function Redirect(){
+            window.location = "123123"
+//            return "123123123"
+        }
+
+    </script>
+
+</head>
+<body>
+    <p>IOS的native与js交互测试</p>
+
+    <br>
+    <input type="button" title="click" value="click" onclick="alert123()"/>
+    <br>
+    <input type="button" title="click" value="redirect" onclick="Redirect()"/>
+
+</body>
+</html>

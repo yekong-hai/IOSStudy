@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HANativeAndJsViewController">
+            <connections>
+                <outlet property="testButton" destination="O38-7S-hyF" id="aqU-sk-JSK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="DSR-3G-4Wc" id="5nN-S5-NHg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSR-3G-4Wc">
+                    <rect key="frame" x="0.0" y="200" width="600" height="400"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O38-7S-hyF">
+                    <rect key="frame" x="17" y="34" width="78" height="30"/>
+                    <state key="normal" title="执行js函数"/>
+                    <connections>
+                        <action selector="onTestButtonClicked:" destination="-1" eventType="touchUpInside" id="QR6-5z-8LI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DSR-3G-4Wc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2mt-Io-sdF"/>
+                <constraint firstAttribute="trailing" secondItem="DSR-3G-4Wc" secondAttribute="trailing" id="N05-7S-mjv"/>
+                <constraint firstItem="DSR-3G-4Wc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="QmN-g3-6fa"/>
+                <constraint firstAttribute="bottom" secondItem="DSR-3G-4Wc" secondAttribute="bottom" id="q6q-1g-I4k"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
